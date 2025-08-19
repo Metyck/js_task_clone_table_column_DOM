@@ -8,6 +8,7 @@ const people = Array.from(tbody.children);
 const tfoot = document.querySelector('tfoot');
 const tfootRows = Array.from(tfoot.children);
 
+// duplicate a second column to a pre-last position
 function duplicateSecondColumn(list, elementToCreate) {
   for (const char of list) {
     if (char.children.length === 0) {
